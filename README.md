@@ -17,3 +17,6 @@ An open-source, multi-agent automated orchestration system built to demonstrate 
 7. **Dynamic Application Security Testing (DAST):** Automated endpoint health and injection evaluation.
 8. **Artifact Integrity:** Cryptographic hashing and release verification.
 9. **Deployment & Monitoring:** Scalable cloud deployment coupled with real-time error telemetry.
+## 🚀 Live Demo & Testing
+> **Note for Judges:** Due to strict validator constraints on Devpost, the live Cloud Run application endpoint is hosted directly here for evaluation:
+> [Access Live Application](https://life-after-code-agent-v1-111664053939.europe-west1.run.app)
