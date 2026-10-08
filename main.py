@@ -1,9 +1,14 @@
 import os
+from flask import Flask
 
-def main():
-    print("Life After Code Agent is running successfully on Google Cloud.")
-    port = os.environ.get("PORT", "8080")
-    print(f"Listening on port {port}")
+app = Flask(__name__)
+
+
+@app.route("/")
+def home():
+  return "Life After Code Agent V1 is running successfully!"
+
 
 if __name__ == "__main__":
-    main()
+  port = int(os.environ.get("PORT", 8080))
+  app.run(host="0.0.0.0", port=port)
